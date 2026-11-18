@@ -1,0 +1,201 @@
+user_id,age_group,diet_type,is_student,spice_pref,budget_per_meal,fav_cuisines,preferred_meal,area,lat,lng,orders_per_week,signup_date
+1,25-34,non_veg,False,4,135,Maharashtrian|Gujarati,lunch,Viman Nagar,18.567938,73.929886,7,2025-11-14
+2,18-24,non_veg,True,2,110,Bengali|North Indian|Punjabi,lunch,Shivajinagar,18.519812,73.845386,4,2026-05-01
+3,45+,veg,False,2,200,Gujarati,lunch,Wakad,18.589334,73.758516,1,2025-11-20
+4,18-24,non_veg,True,1,105,Bengali,dinner,Wakad,18.606715,73.759152,2,2025-09-01
+5,25-34,non_veg,False,1,115,South Indian|Jain|Bengali,lunch,Karve Nagar,18.486767,73.826887,2,2026-08-16
+6,25-34,non_veg,False,3,120,Bengali|Punjabi|Gujarati,lunch,Karve Nagar,18.49231,73.823339,7,2026-04-19
+7,25-34,veg,False,3,140,Punjabi|Gujarati,breakfast,Karve Nagar,18.489042,73.816083,3,2026-06-28
+8,25-34,non_veg,False,4,85,Jain,dinner,Hadapsar,18.511081,73.91154,5,2026-01-15
+9,45+,non_veg,False,1,90,North Indian|Maharashtrian,breakfast,Wakad,18.596158,73.757176,5,2025-12-04
+10,45+,eggetarian,False,3,150,North Indian|South Indian,breakfast,Hinjewadi,18.592712,73.730358,4,2026-04-17
+11,35-44,non_veg,False,2,130,Bengali,breakfast,Pimple Saudagar,18.598799,73.79353,5,2026-02-23
+12,18-24,veg,False,1,95,Punjabi|North Indian,dinner,Kharadi,18.563816,73.941032,4,2026-04-28
+13,45+,veg,False,1,185,North Indian|Maharashtrian,lunch,Kharadi,18.553416,73.934786,6,2026-04-19
+14,25-34,veg,False,3,140,Gujarati|South Indian|Bengali,lunch,Viman Nagar,18.559999,73.919315,3,2026-01-26
+15,25-34,non_veg,False,2,145,Jain|Punjabi|Bengali,dinner,Hinjewadi,18.588425,73.743645,4,2025-11-04
+16,18-24,jain,True,1,50,Punjabi,lunch,Baner,18.565678,73.78533,2,2026-08-08
+17,18-24,veg,True,2,95,Jain|Maharashtrian|North Indian,lunch,Karve Nagar,18.482705,73.810619,4,2025-10-17
+18,25-34,non_veg,False,3,170,Jain,breakfast,Shivajinagar,18.524083,73.850087,1,2026-05-02
+19,18-24,jain,True,1,100,South Indian,lunch,Viman Nagar,18.575026,73.908176,1,2026-07-23
+20,18-24,non_veg,False,5,100,South Indian|Jain|Bengali,dinner,Hinjewadi,18.598116,73.733375,4,2026-03-17
+21,18-24,veg,True,1,80,Punjabi,dinner,Wakad,18.609074,73.768455,3,2026-07-02
+22,25-34,veg,False,3,90,Bengali|North Indian|South Indian,breakfast,Wakad,18.600193,73.760565,3,2025-08-30
+23,25-34,veg,False,4,75,North Indian|South Indian,dinner,Hadapsar,18.509133,73.92093,7,2026-01-24
+24,35-44,veg,False,3,135,Maharashtrian|Bengali,lunch,Pimple Saudagar,18.603465,73.797639,3,2026-07-29
+25,25-34,veg,False,4,70,Punjabi|Gujarati|Jain,dinner,Pimple Saudagar,18.604376,73.805369,4,2026-02-22
+26,18-24,non_veg,False,2,130,Jain,lunch,Kothrud,18.509593,73.826773,5,2025-12-09
+27,18-24,veg,True,1,90,Maharashtrian|North Indian,breakfast,Viman Nagar,18.56755,73.914804,2,2025-09-13
+28,18-24,non_veg,True,1,50,Bengali|North Indian,breakfast,Hadapsar,18.508826,73.924674,7,2026-01-03
+29,18-24,non_veg,False,2,105,Maharashtrian,lunch,Pimple Saudagar,18.60013,73.802296,4,2026-02-13
+30,18-24,non_veg,False,1,190,Jain|Bengali|South Indian,breakfast,Baner,18.561382,73.790133,5,2026-05-27
+31,18-24,veg,False,2,130,North Indian,lunch,Kharadi,18.550482,73.942483,2,2025-11-18
+32,45+,non_veg,False,4,135,Gujarati|Bengali|South Indian,breakfast,Baner,18.56027,73.792118,4,2026-05-31
+33,35-44,eggetarian,False,2,75,Punjabi|North Indian|Jain,lunch,Karve Nagar,18.487096,73.833458,6,2026-04-28
+34,18-24,veg,True,3,80,Jain|Maharashtrian|North Indian,lunch,Shivajinagar,18.52455,73.854028,5,2026-04-09
+35,18-24,eggetarian,True,2,85,Punjabi|Gujarati|South Indian,lunch,Kothrud,18.516276,73.818466,6,2026-02-17
+36,25-34,veg,False,3,145,South Indian|North Indian,lunch,Baner,18.563537,73.789073,4,2026-07-30
+37,18-24,veg,True,3,95,South Indian|Punjabi|Bengali,dinner,Pimple Saudagar,18.599813,73.782919,4,2026-06-19
+38,25-34,veg,False,3,125,Maharashtrian|Punjabi|Gujarati,lunch,Hadapsar,18.514743,73.930191,7,2025-09-20
+39,25-34,non_veg,False,3,85,Gujarati|Punjabi|South Indian,lunch,Pimple Saudagar,18.601078,73.804724,3,2026-05-17
+40,35-44,non_veg,False,2,125,Punjabi|Jain,dinner,Kothrud,18.501923,73.809061,4,2026-07-21
+41,18-24,non_veg,False,1,115,Gujarati,breakfast,Pimple Saudagar,18.60034,73.792423,6,2026-07-22
+42,18-24,jain,True,3,95,South Indian|North Indian|Maharashtrian,dinner,Wakad,18.593932,73.768121,5,2026-04-24
+43,18-24,veg,True,2,50,North Indian|South Indian|Maharashtrian,breakfast,Shivajinagar,18.529179,73.858028,1,2026-03-24
+44,25-34,eggetarian,False,3,105,North Indian|Maharashtrian|Jain,dinner,Kothrud,18.506867,73.807723,3,2025-12-03
+45,18-24,veg,True,3,110,North Indian|Bengali|Punjabi,lunch,Wakad,18.602887,73.760964,5,2025-08-31
+46,25-34,non_veg,False,4,100,Maharashtrian,breakfast,Pimple Saudagar,18.599819,73.789105,5,2025-10-30
+47,25-34,veg,False,3,90,Maharashtrian|Gujarati,breakfast,Baner,18.550742,73.784903,4,2025-12-25
+48,18-24,veg,True,1,50,North Indian|Punjabi|South Indian,lunch,Karve Nagar,18.492521,73.819386,3,2026-07-27
+49,25-34,veg,False,1,115,Bengali|Punjabi,breakfast,Shivajinagar,18.519936,73.833901,6,2025-09-23
+50,45+,veg,False,1,145,Jain|Bengali,lunch,Hinjewadi,18.591819,73.740862,2,2026-06-30
+51,35-44,veg,False,2,95,Punjabi,lunch,Hinjewadi,18.591708,73.736427,5,2026-04-22
+52,25-34,non_veg,False,2,150,North Indian|Maharashtrian,dinner,Hinjewadi,18.591884,73.743675,7,2026-07-28
+53,45+,veg,False,3,110,Bengali|North Indian|Punjabi,breakfast,Wakad,18.605862,73.747276,2,2025-12-24
+54,35-44,veg,False,2,190,North Indian|Gujarati|Punjabi,lunch,Shivajinagar,18.532346,73.852473,6,2026-07-04
+55,25-34,non_veg,False,2,55,Gujarati|Bengali|Jain,breakfast,Viman Nagar,18.572727,73.910249,3,2026-04-18
+56,25-34,non_veg,False,1,105,Punjabi|Gujarati,breakfast,Pimple Saudagar,18.607805,73.797758,1,2026-04-15
+57,18-24,veg,False,5,135,South Indian,breakfast,Shivajinagar,18.534747,73.863664,3,2025-11-06
+58,45+,jain,False,2,135,South Indian|Punjabi,breakfast,Hinjewadi,18.594674,73.731149,1,2026-05-13
+59,25-34,veg,False,4,110,Punjabi|Bengali|Gujarati,dinner,Kothrud,18.512572,73.805422,2,2026-03-21
+60,35-44,non_veg,False,3,150,Gujarati|Jain|Maharashtrian,lunch,Wakad,18.599764,73.762047,5,2026-07-17
+61,18-24,veg,False,2,100,South Indian|Bengali,breakfast,Baner,18.547773,73.797974,4,2026-01-18
+62,18-24,veg,True,3,100,Maharashtrian,lunch,Shivajinagar,18.533879,73.844887,4,2025-09-29
+63,45+,non_veg,False,2,130,Maharashtrian,breakfast,Hadapsar,18.517307,73.927088,4,2025-11-20
+64,18-24,veg,True,1,85,Bengali|North Indian|Gujarati,lunch,Kharadi,18.547512,73.942164,3,2025-08-29
+65,35-44,non_veg,False,2,110,Gujarati|North Indian|Jain,lunch,Shivajinagar,18.530115,73.861198,6,2026-01-05
+66,35-44,non_veg,False,4,85,South Indian|Maharashtrian|Punjabi,lunch,Wakad,18.585138,73.759155,1,2026-07-15
+67,18-24,veg,True,2,95,Jain|North Indian|Bengali,lunch,Kothrud,18.499162,73.80967,2,2025-12-13
+68,18-24,non_veg,True,1,85,Jain|Gujarati,dinner,Kharadi,18.547752,73.947951,3,2025-11-04
+69,18-24,veg,True,3,95,Gujarati|Bengali|South Indian,dinner,Pimple Saudagar,18.609872,73.794109,7,2026-06-06
+70,25-34,non_veg,False,4,145,Gujarati,dinner,Kharadi,18.563553,73.934243,7,2026-02-03
+71,25-34,jain,False,1,105,Maharashtrian|Gujarati,breakfast,Karve Nagar,18.48651,73.817807,3,2026-07-01
+72,45+,veg,False,2,130,Punjabi|South Indian|Bengali,dinner,Hinjewadi,18.592272,73.743278,4,2026-06-06
+73,18-24,veg,True,3,50,South Indian|North Indian|Punjabi,breakfast,Kharadi,18.550784,73.930275,2,2026-02-22
+74,35-44,non_veg,False,3,120,Bengali|Punjabi,lunch,Shivajinagar,18.532232,73.856867,3,2025-09-03
+75,25-34,veg,False,2,145,South Indian,dinner,Baner,18.560729,73.785286,3,2025-11-11
+76,25-34,eggetarian,False,3,105,North Indian,dinner,Pimple Saudagar,18.609053,73.797155,3,2026-07-04
+77,25-34,veg,False,1,130,North Indian|Gujarati|Bengali,lunch,Karve Nagar,18.49005,73.818777,4,2025-09-19
+78,25-34,non_veg,False,2,165,Bengali,dinner,Pimple Saudagar,18.609637,73.799218,8,2026-04-08
+79,45+,non_veg,False,3,105,Gujarati|Maharashtrian,dinner,Viman Nagar,18.567364,73.904712,5,2025-10-13
+80,18-24,veg,False,2,110,Maharashtrian|Bengali|Gujarati,breakfast,Pimple Saudagar,18.601152,73.801238,2,2026-04-26
+81,35-44,non_veg,False,1,90,Maharashtrian|Gujarati|Bengali,breakfast,Shivajinagar,18.524032,73.84444,6,2026-06-03
+82,25-34,eggetarian,False,2,145,Jain|North Indian|South Indian,lunch,Kothrud,18.511038,73.79967,1,2025-10-02
+83,18-24,jain,True,3,50,Jain,lunch,Viman Nagar,18.567355,73.914115,4,2026-01-30
+84,18-24,non_veg,True,1,120,Jain,lunch,Kothrud,18.502752,73.804238,5,2025-10-25
+85,25-34,veg,False,3,180,Punjabi|Maharashtrian,lunch,Pimple Saudagar,18.597334,73.79222,2,2026-01-14
+86,25-34,veg,False,2,210,Jain,lunch,Hadapsar,18.509332,73.918228,7,2026-06-06
+87,45+,non_veg,False,1,150,Gujarati|Bengali,breakfast,Hadapsar,18.514993,73.91605,1,2025-09-10
+88,35-44,non_veg,False,2,120,South Indian|Gujarati,breakfast,Wakad,18.598462,73.762955,5,2026-07-06
+89,45+,eggetarian,False,2,70,Maharashtrian|South Indian|Gujarati,dinner,Baner,18.564596,73.789704,6,2026-05-27
+90,45+,jain,False,1,120,Gujarati|Jain,lunch,Pimple Saudagar,18.605472,73.796528,4,2026-05-25
+91,35-44,veg,False,3,90,North Indian,lunch,Shivajinagar,18.528493,73.851368,3,2026-06-09
+92,18-24,non_veg,False,3,140,Gujarati,lunch,Kothrud,18.515875,73.813845,1,2026-01-20
+93,25-34,jain,False,2,135,Bengali,dinner,Shivajinagar,18.523634,73.841013,3,2026-06-18
+94,25-34,veg,False,1,115,Maharashtrian,lunch,Kharadi,18.545119,73.941198,3,2026-08-26
+95,18-24,veg,True,1,50,Maharashtrian|North Indian,dinner,Wakad,18.605128,73.763918,1,2026-06-28
+96,18-24,jain,False,3,115,Jain|North Indian|South Indian,dinner,Viman Nagar,18.575042,73.896014,3,2026-02-10
+97,35-44,non_veg,False,1,160,Jain,dinner,Kharadi,18.545397,73.945197,2,2026-02-25
+98,18-24,non_veg,False,1,125,Bengali|Jain|North Indian,lunch,Shivajinagar,18.523433,73.834318,1,2026-01-16
+99,18-24,veg,True,3,80,Gujarati|North Indian|South Indian,dinner,Wakad,18.604148,73.753084,4,2025-10-24
+100,18-24,non_veg,True,3,75,South Indian,lunch,Hinjewadi,18.58946,73.739528,3,2026-03-22
+101,25-34,veg,False,3,135,Jain,lunch,Hadapsar,18.504184,73.924261,3,2025-11-06
+102,18-24,jain,True,2,80,Punjabi|South Indian|Jain,dinner,Kothrud,18.504688,73.803705,2,2026-01-11
+103,25-34,veg,False,3,165,North Indian|Maharashtrian|South Indian,breakfast,Kothrud,18.508356,73.807532,3,2025-09-05
+104,25-34,veg,False,3,85,Maharashtrian|Bengali|North Indian,lunch,Pimple Saudagar,18.609849,73.793039,1,2025-10-20
+105,25-34,veg,False,4,155,Punjabi|Gujarati,lunch,Hadapsar,18.520399,73.921419,5,2026-05-27
+106,18-24,non_veg,True,2,90,Maharashtrian,lunch,Kharadi,18.547884,73.933443,3,2025-11-07
+107,25-34,veg,False,2,125,North Indian|Bengali,breakfast,Karve Nagar,18.478134,73.818431,1,2026-05-27
+108,25-34,veg,False,3,65,Maharashtrian,breakfast,Hinjewadi,18.584378,73.739851,9,2026-05-03
+109,18-24,eggetarian,False,2,75,Jain|Punjabi|Gujarati,breakfast,Baner,18.557322,73.783728,3,2026-07-29
+110,25-34,veg,False,3,135,Jain|Maharashtrian,lunch,Pimple Saudagar,18.603291,73.800635,3,2026-03-28
+111,25-34,veg,False,3,110,Maharashtrian|Gujarati,dinner,Viman Nagar,18.565632,73.916245,3,2025-11-01
+112,18-24,non_veg,False,1,210,Gujarati|South Indian|Maharashtrian,dinner,Hinjewadi,18.589114,73.739664,2,2026-08-11
+113,18-24,eggetarian,True,1,55,Gujarati|South Indian|Punjabi,dinner,Viman Nagar,18.571375,73.922107,3,2026-07-06
+114,18-24,jain,True,3,50,Bengali|Maharashtrian|Gujarati,dinner,Shivajinagar,18.533846,73.851018,3,2025-10-04
+115,35-44,non_veg,False,3,125,Punjabi|Bengali|South Indian,breakfast,Kharadi,18.545505,73.940221,2,2026-02-15
+116,25-34,veg,False,3,110,Bengali|Jain,dinner,Viman Nagar,18.566134,73.911563,2,2026-04-14
+117,25-34,jain,False,2,180,North Indian|Gujarati|Maharashtrian,dinner,Pimple Saudagar,18.593087,73.796556,4,2025-11-27
+118,35-44,veg,False,1,135,Bengali|Maharashtrian,dinner,Kothrud,18.501859,73.801436,5,2026-06-24
+119,18-24,veg,True,4,50,Gujarati|North Indian,dinner,Shivajinagar,18.530293,73.851451,4,2026-08-31
+120,45+,eggetarian,False,3,105,Bengali|Maharashtrian,lunch,Hinjewadi,18.594951,73.737614,2,2026-06-27
+121,18-24,veg,True,5,50,Maharashtrian,lunch,Pimple Saudagar,18.590095,73.803411,3,2026-06-16
+122,25-34,eggetarian,False,4,155,Maharashtrian|North Indian|Gujarati,lunch,Kothrud,18.51439,73.813266,3,2026-08-07
+123,18-24,eggetarian,True,5,90,South Indian,lunch,Karve Nagar,18.497746,73.821569,2,2025-11-11
+124,25-34,non_veg,False,3,120,North Indian|Punjabi|Maharashtrian,lunch,Kothrud,18.514242,73.80777,3,2026-02-21
+125,35-44,non_veg,False,2,80,Gujarati,breakfast,Shivajinagar,18.531308,73.864005,2,2026-07-08
+126,25-34,non_veg,False,2,120,Punjabi|South Indian,breakfast,Karve Nagar,18.499012,73.824497,7,2025-08-31
+127,25-34,jain,False,3,100,Gujarati,lunch,Karve Nagar,18.498881,73.826716,3,2026-03-31
+128,18-24,non_veg,False,2,55,North Indian,lunch,Kothrud,18.50688,73.806058,7,2026-08-07
+129,18-24,jain,True,2,85,Jain|South Indian|Maharashtrian,lunch,Wakad,18.602232,73.757624,6,2026-08-14
+130,35-44,non_veg,False,4,110,Maharashtrian,lunch,Baner,18.550352,73.79346,6,2026-07-30
+131,18-24,veg,True,5,140,Bengali|Jain,breakfast,Hinjewadi,18.597465,73.73279,3,2026-02-27
+132,25-34,jain,False,3,155,Jain|Bengali,lunch,Pimple Saudagar,18.606438,73.800916,1,2025-10-10
+133,35-44,jain,False,2,110,Punjabi|North Indian|Bengali,lunch,Wakad,18.604676,73.756672,1,2025-09-20
+134,18-24,eggetarian,True,2,55,Bengali,lunch,Kharadi,18.555472,73.940097,7,2026-06-14
+135,45+,veg,False,2,100,South Indian|North Indian|Punjabi,lunch,Shivajinagar,18.535888,73.855666,4,2026-08-28
+136,25-34,veg,False,1,195,North Indian,lunch,Wakad,18.606091,73.763618,2,2026-01-06
+137,35-44,non_veg,False,2,140,Bengali|Punjabi,breakfast,Karve Nagar,18.491297,73.824829,1,2026-04-08
+138,35-44,non_veg,False,4,145,Punjabi|North Indian,breakfast,Wakad,18.601961,73.759017,2,2025-12-18
+139,25-34,non_veg,False,3,110,South Indian,dinner,Viman Nagar,18.568773,73.91325,3,2026-03-19
+140,45+,jain,False,2,140,Jain|Punjabi,breakfast,Viman Nagar,18.566029,73.926424,5,2026-03-17
+141,25-34,veg,False,3,155,South Indian|Jain|Gujarati,dinner,Viman Nagar,18.577994,73.921101,4,2025-10-03
+142,25-34,veg,False,3,135,Gujarati,lunch,Wakad,18.592917,73.767898,6,2026-01-11
+143,35-44,non_veg,False,3,145,Jain|North Indian|Bengali,dinner,Karve Nagar,18.485064,73.827427,2,2026-03-30
+144,25-34,eggetarian,False,2,135,Gujarati,dinner,Kharadi,18.550321,73.944963,4,2026-06-02
+145,25-34,non_veg,False,2,155,Punjabi|Jain,dinner,Hadapsar,18.518124,73.927269,3,2025-11-30
+146,25-34,veg,False,4,100,Maharashtrian|South Indian|North Indian,breakfast,Kharadi,18.550216,73.943986,7,2025-09-01
+147,45+,non_veg,False,3,95,Maharashtrian,dinner,Viman Nagar,18.562939,73.914176,1,2026-06-01
+148,35-44,non_veg,False,1,95,Maharashtrian|Punjabi,dinner,Hadapsar,18.509613,73.923603,1,2026-07-01
+149,25-34,non_veg,False,2,115,Punjabi,lunch,Kharadi,18.560895,73.943052,2,2026-03-15
+150,35-44,veg,False,4,85,Gujarati|Jain|South Indian,dinner,Hinjewadi,18.583623,73.732708,8,2026-08-20
+151,45+,veg,False,3,135,North Indian,dinner,Shivajinagar,18.532614,73.84672,3,2025-12-26
+152,18-24,non_veg,True,4,110,North Indian|Punjabi,lunch,Wakad,18.599778,73.756788,4,2026-01-09
+153,35-44,jain,False,2,115,Maharashtrian|Jain|Gujarati,dinner,Hadapsar,18.517252,73.920882,2,2025-12-24
+154,18-24,non_veg,True,1,70,South Indian,breakfast,Wakad,18.596338,73.750586,4,2025-10-13
+155,45+,veg,False,2,80,North Indian|Punjabi|Jain,dinner,Wakad,18.609216,73.765254,5,2026-06-12
+156,35-44,veg,False,2,140,Gujarati|Bengali,lunch,Shivajinagar,18.537196,73.849709,5,2026-06-03
+157,25-34,jain,False,2,160,North Indian|Bengali|Punjabi,lunch,Shivajinagar,18.526939,73.845842,2,2026-04-01
+158,25-34,veg,False,2,70,Gujarati|Jain|North Indian,lunch,Hinjewadi,18.588777,73.735697,1,2026-07-20
+159,25-34,veg,False,1,150,Gujarati,breakfast,Baner,18.563056,73.780613,1,2026-02-11
+160,25-34,non_veg,False,1,200,North Indian|Gujarati|Maharashtrian,lunch,Karve Nagar,18.489355,73.823326,5,2026-06-18
+161,35-44,non_veg,False,2,110,Gujarati|Maharashtrian|South Indian,lunch,Hadapsar,18.517111,73.92746,2,2026-03-17
+162,18-24,non_veg,True,5,95,Maharashtrian,lunch,Karve Nagar,18.482456,73.823061,5,2026-01-27
+163,45+,veg,False,2,90,North Indian,lunch,Pimple Saudagar,18.603833,73.801363,5,2025-11-04
+164,25-34,non_veg,False,2,140,Bengali|North Indian|Maharashtrian,dinner,Hadapsar,18.501638,73.931873,3,2025-09-28
+165,25-34,veg,False,3,115,North Indian|South Indian,dinner,Baner,18.562263,73.78389,4,2025-09-22
+166,18-24,veg,True,2,55,South Indian|Jain,dinner,Kharadi,18.556891,73.944804,5,2026-01-19
+167,18-24,non_veg,False,4,170,South Indian|Bengali|Punjabi,dinner,Wakad,18.59694,73.759507,5,2026-07-23
+168,25-34,veg,False,1,50,Punjabi,lunch,Shivajinagar,18.531483,73.848506,4,2026-03-10
+169,45+,veg,False,2,105,Jain,breakfast,Viman Nagar,18.56758,73.914116,8,2026-01-16
+170,25-34,veg,False,3,135,Bengali|Gujarati|Jain,lunch,Hinjewadi,18.592632,73.747202,4,2026-01-16
+171,35-44,veg,False,3,150,South Indian|North Indian,dinner,Pimple Saudagar,18.592713,73.794408,4,2025-09-10
+172,35-44,non_veg,False,2,130,Gujarati,lunch,Hinjewadi,18.597643,73.741172,5,2026-05-07
+173,18-24,veg,True,2,100,South Indian,dinner,Hinjewadi,18.590701,73.742331,4,2026-06-21
+174,25-34,non_veg,False,2,165,Gujarati,lunch,Wakad,18.599905,73.758059,2,2026-01-10
+175,18-24,veg,True,2,75,Gujarati|Punjabi,dinner,Kharadi,18.547469,73.938105,3,2025-09-17
+176,18-24,veg,True,1,140,Jain|North Indian|South Indian,dinner,Kothrud,18.515006,73.802557,1,2026-01-08
+177,18-24,veg,True,2,50,North Indian|Bengali,lunch,Baner,18.55203,73.781368,4,2026-08-11
+178,25-34,veg,False,5,165,Punjabi,dinner,Kothrud,18.501304,73.804567,2,2025-12-27
+179,18-24,jain,True,4,55,North Indian|Bengali,dinner,Kothrud,18.509124,73.812193,1,2026-08-03
+180,25-34,non_veg,False,3,135,South Indian|Gujarati,dinner,Hinjewadi,18.591044,73.741377,4,2026-07-29
+181,18-24,veg,True,5,110,Bengali,breakfast,Hinjewadi,18.609491,73.737535,2,2025-11-13
+182,25-34,non_veg,False,2,135,Punjabi|Gujarati|Bengali,lunch,Shivajinagar,18.526141,73.863431,2,2026-06-21
+183,18-24,jain,True,2,60,Punjabi,dinner,Kothrud,18.501894,73.80057,7,2025-10-04
+184,35-44,veg,False,3,85,Maharashtrian|Punjabi,breakfast,Pimple Saudagar,18.596113,73.791661,3,2026-02-04
+185,18-24,jain,False,2,90,North Indian|Gujarati|Punjabi,lunch,Pimple Saudagar,18.600163,73.802627,2,2025-12-15
+186,18-24,veg,True,1,75,North Indian,lunch,Kothrud,18.510198,73.799798,6,2026-03-30
+187,18-24,jain,True,2,95,Bengali,lunch,Baner,18.552548,73.792019,4,2026-08-10
+188,18-24,veg,True,1,85,Maharashtrian|Punjabi|Jain,dinner,Baner,18.560115,73.793696,3,2025-11-09
+189,25-34,veg,False,3,100,Maharashtrian,lunch,Wakad,18.600683,73.769971,2,2026-02-19
+190,35-44,non_veg,False,2,160,Bengali|Jain,breakfast,Wakad,18.591908,73.766067,5,2026-04-09
+191,25-34,veg,False,2,85,North Indian,lunch,Karve Nagar,18.488697,73.821664,2,2026-05-08
+192,25-34,veg,False,4,115,Gujarati|North Indian|Punjabi,lunch,Karve Nagar,18.508531,73.823096,5,2026-03-17
+193,25-34,veg,False,2,155,Punjabi,dinner,Baner,18.563643,73.777162,3,2026-08-22
+194,35-44,jain,False,2,105,Gujarati|Maharashtrian,breakfast,Hadapsar,18.506515,73.926337,1,2026-05-31
+195,25-34,veg,False,4,115,Jain,dinner,Hadapsar,18.50009,73.924606,3,2026-08-11
+196,35-44,jain,False,4,105,Gujarati|North Indian|Bengali,lunch,Karve Nagar,18.483882,73.820994,1,2026-06-02
+197,18-24,veg,True,3,50,Bengali|North Indian,dinner,Shivajinagar,18.529269,73.838182,2,2026-04-30
+198,35-44,jain,False,3,100,South Indian,dinner,Kothrud,18.51867,73.803687,1,2025-10-03
+199,35-44,non_veg,False,1,80,Maharashtrian,dinner,Viman Nagar,18.563126,73.908017,7,2026-05-13
+200,35-44,non_veg,False,2,90,Punjabi|Gujarati,dinner,Hinjewadi,18.594261,73.738658,5,2025-11-28

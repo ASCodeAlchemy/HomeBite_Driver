@@ -1,0 +1,146 @@
+tiffin_id,provider_id,dish_name,cuisine,veg,spice_level,price,meal_type,calories,provider_quality,subscription_available,sugar_level,sodium_level,carb_level,fat_level,fasting_friendly,festival_tags
+1,1,Curd Rice,South Indian,True,1,75,dinner,354,4.09,True,low,low,medium,low,False,
+2,1,Kolhapuri Chicken,Maharashtrian,False,5,200,dinner,784,4.09,True,low,high,high,high,False,
+3,1,Veg Biryani,North Indian,True,3,125,dinner,595,4.09,True,low,high,high,medium,False,
+4,1,Jain Khichdi,Jain,True,1,95,dinner,443,4.09,False,low,low,medium,low,False,
+5,1,Gujarati Thali,Gujarati,True,1,150,lunch,678,4.09,True,low,medium,high,medium,False,
+6,1,Lemon Rice Combo,South Indian,True,3,85,lunch,432,4.09,True,low,medium,high,medium,False,
+7,1,Chicken Curry Meal,North Indian,False,4,170,lunch,763,4.09,True,low,high,low,medium,False,
+8,1,Mithai Box (Kaju Katli),North Indian,True,1,265,dinner,723,4.09,False,high,low,high,high,False,diwali
+9,1,Diwali Faral Combo,Maharashtrian,True,3,170,breakfast,592,4.09,False,low,high,medium,high,False,diwali
+10,1,Bajra Khichdi Thali,Gujarati,True,1,125,lunch,533,4.09,True,low,low,high,low,False,makar_sankranti
+11,1,Sabudana Vada Plate,Maharashtrian,True,1,85,breakfast,387,4.09,False,low,medium,medium,high,True,navratri
+12,2,Veg Pulao,North Indian,True,2,105,dinner,513,4.12,False,low,medium,high,medium,False,
+13,2,Jain Khichdi,Jain,True,1,105,dinner,431,4.12,False,low,low,medium,low,False,
+14,2,Jain Thali,Jain,True,1,165,lunch,643,4.12,False,low,medium,high,medium,False,
+15,2,Butter Chicken Meal,North Indian,False,4,215,dinner,796,4.12,True,low,high,low,high,False,
+16,2,Paneer Butter Masala Meal,North Indian,True,2,180,lunch,667,4.12,False,low,high,medium,high,False,
+17,2,Upma,South Indian,True,1,70,breakfast,276,4.12,True,low,low,medium,low,False,
+18,2,Veg Khichuri,Bengali,True,3,120,dinner,504,4.12,True,low,medium,high,medium,False,
+19,2,Undhiyu Meal,Gujarati,True,3,155,lunch,624,4.12,False,low,medium,medium,medium,False,
+20,2,Thandai Meal Combo,North Indian,True,1,155,dinner,501,4.12,False,high,low,medium,high,False,holi
+21,2,Rajgira Paratha,Punjabi,True,1,95,breakfast,374,4.12,False,low,medium,high,high,True,navratri
+22,2,Sabudana Vada Plate,Maharashtrian,True,1,95,breakfast,427,4.12,False,low,medium,medium,high,True,navratri
+23,2,Besan Ladoo Box,North Indian,True,1,215,dinner,616,4.12,True,high,low,high,high,False,diwali
+24,2,Diwali Faral Combo,Maharashtrian,True,4,190,breakfast,563,4.12,True,low,high,medium,high,False,diwali
+25,3,Upma,South Indian,True,2,55,breakfast,279,4.23,False,low,low,medium,low,False,
+26,3,Chicken Curry Meal,North Indian,False,3,150,lunch,716,4.23,True,low,high,low,medium,False,
+27,3,Masala Dosa,South Indian,True,4,85,breakfast,399,4.23,False,low,medium,medium,medium,False,
+28,3,Pithla Bhakri,Maharashtrian,True,2,90,lunch,556,4.23,True,low,medium,medium,medium,False,
+29,3,Dhokla,Gujarati,True,2,65,breakfast,181,4.23,True,low,low,medium,low,False,
+30,3,Egg Curry Meal,North Indian,False,3,110,dinner,602,4.23,True,low,medium,low,medium,False,
+31,3,Rajgira Paratha,Punjabi,True,1,75,breakfast,341,4.23,False,low,medium,high,high,True,navratri
+32,3,Modak Plate,Maharashtrian,True,1,100,dinner,482,4.23,True,high,low,medium,high,False,ganesh_chaturthi
+33,3,Gulab Jamun Box,North Indian,True,1,130,dinner,604,4.23,True,high,low,high,high,False,diwali
+34,3,Besan Ladoo Box,North Indian,True,1,165,dinner,664,4.23,True,high,low,high,high,False,diwali
+35,3,Mithai Box (Kaju Katli),North Indian,True,1,230,dinner,713,4.23,False,high,low,high,high,False,diwali
+36,4,Butter Chicken Meal,North Indian,False,4,185,dinner,835,4.04,True,low,high,low,high,False,
+37,4,Palak Paneer Meal,North Indian,True,2,145,dinner,583,4.04,True,low,medium,medium,high,False,
+38,4,Gujarati Thali,Gujarati,True,3,145,lunch,740,4.04,False,low,medium,high,medium,False,
+39,4,Thepla Combo,Gujarati,True,1,90,lunch,470,4.04,False,low,medium,medium,high,False,
+40,4,Misal Pav,Maharashtrian,True,4,90,breakfast,482,4.04,True,low,high,medium,high,False,
+41,4,Idli Sambar,South Indian,True,2,70,breakfast,285,4.04,False,low,low,medium,low,False,
+42,4,Sambar Rice,South Indian,True,3,90,lunch,513,4.04,True,low,medium,medium,medium,False,
+43,4,Veg Khichuri,Bengali,True,3,100,dinner,487,4.04,False,low,medium,high,medium,False,
+44,4,Maharashtrian Thali,Maharashtrian,True,4,135,lunch,681,4.04,False,low,medium,high,medium,False,
+45,4,Kuttu Puri Aloo,North Indian,True,3,90,lunch,499,4.04,True,low,medium,high,high,True,navratri
+46,4,Samak Rice Khichdi,North Indian,True,1,85,dinner,407,4.04,True,low,low,medium,low,True,navratri
+47,4,Rajgira Paratha,Punjabi,True,2,80,breakfast,354,4.04,True,low,medium,high,high,True,navratri
+48,4,Gujiya Box,North Indian,True,2,125,dinner,550,4.04,True,high,low,medium,high,False,holi
+49,4,Gulab Jamun Box,North Indian,True,1,145,dinner,585,4.04,False,high,low,high,high,False,diwali
+50,5,Jain Thali,Jain,True,3,135,lunch,645,3.95,False,low,medium,high,medium,False,
+51,5,Upma,South Indian,True,1,60,breakfast,299,3.95,True,low,low,medium,low,False,
+52,5,Dal Tadka Rice,North Indian,True,3,85,dinner,520,3.95,False,low,medium,medium,medium,False,
+53,5,Luchi Aloo Dum,Bengali,True,1,85,breakfast,472,3.95,True,low,medium,medium,high,False,
+54,5,Palak Paneer Meal,North Indian,True,1,135,dinner,619,3.95,False,low,medium,medium,high,False,
+55,5,Poha,Maharashtrian,True,1,60,breakfast,287,3.95,True,low,medium,medium,medium,False,
+56,5,Veg Biryani,North Indian,True,4,115,dinner,634,3.95,True,low,high,high,medium,False,
+57,5,Til Gul Ladoo,Maharashtrian,True,1,85,dinner,404,3.95,False,high,low,high,high,False,makar_sankranti
+58,5,Sabudana Vada Plate,Maharashtrian,True,3,75,breakfast,388,3.95,True,low,medium,medium,high,True,navratri
+59,5,Samak Rice Khichdi,North Indian,True,2,80,dinner,373,3.95,False,low,low,medium,low,True,navratri
+60,5,Besan Ladoo Box,North Indian,True,1,175,dinner,658,3.95,False,high,low,high,high,False,diwali
+61,5,Gujiya Box,North Indian,True,2,115,dinner,545,3.95,True,high,low,medium,high,False,holi
+62,6,Egg Curry Meal,North Indian,False,2,135,dinner,612,4.24,False,low,medium,low,medium,False,
+63,6,Masala Dosa,South Indian,True,2,105,breakfast,396,4.24,True,low,medium,medium,medium,False,
+64,6,Sprouts Salad Bowl,Maharashtrian,True,1,90,lunch,259,4.24,False,low,low,low,low,False,
+65,6,Poha,Maharashtrian,True,3,70,breakfast,276,4.24,True,low,medium,medium,medium,False,
+66,6,Maharashtrian Thali,Maharashtrian,True,5,150,lunch,665,4.24,True,low,medium,high,medium,False,
+67,6,Kolhapuri Chicken,Maharashtrian,False,5,215,dinner,771,4.24,False,low,high,high,high,False,
+68,6,Chicken Curry Meal,North Indian,False,3,180,lunch,735,4.24,True,low,high,low,medium,False,
+69,6,Veg Khichuri,Bengali,True,3,115,dinner,554,4.24,True,low,medium,high,medium,False,
+70,6,Rajgira Paratha,Punjabi,True,1,90,breakfast,363,4.24,True,low,medium,high,high,True,navratri
+71,6,Besan Ladoo Box,North Indian,True,1,205,dinner,619,4.24,True,high,low,high,high,False,diwali
+72,6,Diwali Faral Combo,Maharashtrian,True,4,180,breakfast,564,4.24,True,low,high,medium,high,False,diwali
+73,6,Bajra Khichdi Thali,Gujarati,True,3,135,lunch,524,4.24,True,low,low,high,low,False,makar_sankranti
+74,6,Puran Poli,Maharashtrian,True,1,115,lunch,495,4.24,True,high,low,high,high,False,gudi_padwa|diwali
+75,7,Egg Curry Meal,North Indian,False,2,125,dinner,627,3.92,True,low,medium,low,medium,False,
+76,7,Veg Biryani,North Indian,True,3,125,dinner,634,3.92,True,low,high,high,medium,False,
+77,7,Misal Pav,Maharashtrian,True,5,95,breakfast,478,3.92,False,low,high,medium,high,False,
+78,7,Maharashtrian Thali,Maharashtrian,True,3,135,lunch,739,3.92,False,low,medium,high,medium,False,
+79,7,Fish Curry Rice,Bengali,False,3,175,lunch,723,3.92,False,low,medium,medium,medium,False,
+80,7,Curd Rice,South Indian,True,1,70,dinner,373,3.92,True,low,low,medium,low,False,
+81,7,Mix Veg Roti Meal,North Indian,True,3,105,dinner,523,3.92,True,low,medium,medium,medium,False,
+82,7,Veg Khichuri,Bengali,True,3,105,dinner,549,3.92,True,low,medium,high,medium,False,
+83,7,Machher Jhol Meal,Bengali,False,4,185,lunch,691,3.92,False,low,medium,medium,medium,False,
+84,7,Samak Rice Khichdi,North Indian,True,1,90,dinner,361,3.92,True,low,low,medium,low,True,navratri
+85,7,Rajgira Paratha,Punjabi,True,1,80,breakfast,378,3.92,True,low,medium,high,high,True,navratri
+86,7,Thandai Meal Combo,North Indian,True,1,135,dinner,458,3.92,True,high,low,medium,high,False,holi
+87,7,Vrat Thali (Sabudana + Kuttu),Maharashtrian,True,1,135,lunch,589,3.92,True,low,medium,high,medium,True,navratri
+88,7,Mithai Box (Kaju Katli),North Indian,True,1,255,dinner,690,3.92,False,high,low,high,high,False,diwali
+89,8,Maharashtrian Thali,Maharashtrian,True,3,140,lunch,683,4.06,False,low,medium,high,medium,False,
+90,8,Kadhi Khichdi,Gujarati,True,1,105,dinner,496,4.06,False,low,low,medium,low,False,
+91,8,Veg Pulao,North Indian,True,2,95,dinner,509,4.06,True,low,medium,high,medium,False,
+92,8,Kolhapuri Chicken,Maharashtrian,False,5,205,dinner,809,4.06,True,low,high,high,high,False,
+93,8,Egg Curry Meal,North Indian,False,3,130,dinner,618,4.06,True,low,medium,low,medium,False,
+94,8,Undhiyu Meal,Gujarati,True,3,140,lunch,685,4.06,True,low,medium,medium,medium,False,
+95,8,Puran Poli,Maharashtrian,True,2,105,lunch,517,4.06,False,high,low,high,high,False,gudi_padwa|diwali
+96,8,Mithai Box (Kaju Katli),North Indian,True,1,265,dinner,708,4.06,False,high,low,high,high,False,diwali
+97,8,Kuttu Puri Aloo,North Indian,True,3,95,lunch,544,4.06,False,low,medium,high,high,True,navratri
+98,8,Gujiya Box,North Indian,True,1,130,dinner,500,4.06,True,high,low,medium,high,False,holi
+99,8,Gulab Jamun Box,North Indian,True,1,150,dinner,567,4.06,False,high,low,high,high,False,diwali
+100,9,Upma,South Indian,True,3,70,breakfast,249,4.36,True,low,low,medium,low,False,
+101,9,Masala Dosa,South Indian,True,3,105,breakfast,413,4.36,True,low,medium,medium,medium,False,
+102,9,Lemon Rice Combo,South Indian,True,3,95,lunch,472,4.36,False,low,medium,high,medium,False,
+103,9,Jain Khichdi,Jain,True,2,105,dinner,437,4.36,False,low,low,medium,low,False,
+104,9,Poha,Maharashtrian,True,3,70,breakfast,271,4.36,True,low,medium,medium,medium,False,
+105,9,Curd Rice,South Indian,True,2,85,dinner,339,4.36,True,low,low,medium,low,False,
+106,9,Besan Ladoo Box,North Indian,True,1,215,dinner,622,4.36,True,high,low,high,high,False,diwali
+107,9,Modak Plate,Maharashtrian,True,1,130,dinner,485,4.36,True,high,low,medium,high,False,ganesh_chaturthi
+108,9,Gujiya Box,North Indian,True,2,145,dinner,511,4.36,False,high,low,medium,high,False,holi
+109,9,Samak Rice Khichdi,North Indian,True,1,100,dinner,384,4.36,False,low,low,medium,low,True,navratri
+110,9,Gulab Jamun Box,North Indian,True,1,165,dinner,623,4.36,True,high,low,high,high,False,diwali
+111,10,Mutton Thali,Maharashtrian,False,4,260,dinner,896,3.87,False,low,high,high,high,False,
+112,10,Chicken Curry Meal,North Indian,False,4,190,lunch,733,3.87,True,low,high,low,medium,False,
+113,10,Poha,Maharashtrian,True,1,70,breakfast,245,3.87,True,low,medium,medium,medium,False,
+114,10,Rajma Chawal,Punjabi,True,3,120,lunch,634,3.87,False,low,medium,medium,medium,False,
+115,10,Palak Paneer Meal,North Indian,True,2,165,dinner,588,3.87,False,low,medium,medium,high,False,
+116,10,Luchi Aloo Dum,Bengali,True,1,105,breakfast,511,3.87,True,low,medium,medium,high,False,
+117,10,Besan Ladoo Box,North Indian,True,2,215,dinner,677,3.87,True,high,low,high,high,False,diwali
+118,10,Gulab Jamun Box,North Indian,True,1,165,dinner,640,3.87,False,high,low,high,high,False,diwali
+119,10,Sabudana Vada Plate,Maharashtrian,True,1,95,breakfast,432,3.87,True,low,medium,medium,high,True,navratri
+120,10,Gujiya Box,North Indian,True,2,140,dinner,552,3.87,True,high,low,medium,high,False,holi
+121,10,Diwali Faral Combo,Maharashtrian,True,2,190,breakfast,579,3.87,True,low,high,medium,high,False,diwali
+122,11,Maharashtrian Thali,Maharashtrian,True,3,125,lunch,722,4.41,False,low,medium,high,medium,False,
+123,11,Mix Veg Roti Meal,North Indian,True,3,95,dinner,547,4.41,True,low,medium,medium,medium,False,
+124,11,Poha,Maharashtrian,True,2,55,breakfast,226,4.41,True,low,medium,medium,medium,False,
+125,11,Aloo Paratha,Punjabi,True,4,75,breakfast,420,4.41,False,low,medium,high,high,False,
+126,11,Veg Khichuri,Bengali,True,2,95,dinner,531,4.41,False,low,medium,high,medium,False,
+127,11,Undhiyu Meal,Gujarati,True,3,125,lunch,622,4.41,False,low,medium,medium,medium,False,
+128,11,Chicken Biryani,North Indian,False,3,160,dinner,825,4.41,True,low,high,high,medium,False,
+129,11,Misal Pav,Maharashtrian,True,4,85,breakfast,467,4.41,False,low,high,medium,high,False,
+130,11,Butter Chicken Meal,North Indian,False,4,170,dinner,809,4.41,True,low,high,low,high,False,
+131,11,Kuttu Puri Aloo,North Indian,True,1,85,lunch,529,4.41,True,low,medium,high,high,True,navratri
+132,11,Samak Rice Khichdi,North Indian,True,1,80,dinner,411,4.41,False,low,low,medium,low,True,navratri
+133,11,Bajra Khichdi Thali,Gujarati,True,2,115,lunch,534,4.41,True,low,low,high,low,False,makar_sankranti
+134,11,Vrat Thali (Sabudana + Kuttu),Maharashtrian,True,2,125,lunch,574,4.41,False,low,medium,high,medium,True,navratri
+135,11,Thandai Meal Combo,North Indian,True,1,125,dinner,477,4.41,False,high,low,medium,high,False,holi
+136,12,Sambar Rice,South Indian,True,3,100,lunch,501,4.2,True,low,medium,medium,medium,False,
+137,12,Mix Veg Roti Meal,North Indian,True,3,115,dinner,518,4.2,True,low,medium,medium,medium,False,
+138,12,Gujarati Thali,Gujarati,True,3,160,lunch,670,4.2,True,low,medium,high,medium,False,
+139,12,Upma,South Indian,True,1,70,breakfast,264,4.2,True,low,low,medium,low,False,
+140,12,Curd Rice,South Indian,True,2,80,dinner,359,4.2,False,low,low,medium,low,False,
+141,12,Egg Bhurji Pav,Maharashtrian,False,4,90,breakfast,393,4.2,True,low,medium,medium,medium,False,
+142,12,Dal Tadka Rice,North Indian,True,4,100,dinner,527,4.2,True,low,medium,medium,medium,False,
+143,12,Besan Ladoo Box,North Indian,True,1,205,dinner,635,4.2,True,high,low,high,high,False,diwali
+144,12,Modak Plate,Maharashtrian,True,1,125,dinner,443,4.2,True,high,low,medium,high,False,ganesh_chaturthi
+145,12,Gulab Jamun Box,North Indian,True,1,160,dinner,578,4.2,True,high,low,high,high,False,diwali

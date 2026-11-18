@@ -1,0 +1,43 @@
+tiffin_id,provider_id,dish_name,cuisine,veg,spice_level,price,meal_type,calories,sugar_level,sodium_level,carb_level,fat_level,fasting_friendly,festival_tags,nutrition_verified,provider_quality,subscription_available
+1,1,Paneer Makhani,Unknown,True,3,260.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+2,1,Butter Chicken,Unknown,False,3,360.2,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+3,1,Butter Chicken,Unknown,False,3,360.2,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+4,1,Panner Bhurji,Unknown,False,3,250.63,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+19,1,Poha with Jalebi,Maharashtrian,True,2,60.0,breakfast,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+20,1,Rajma Chawal Thali,North Indian,True,2,160.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+6,2,Daal Makhani,Unknown,False,3,120.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+7,2,Butter Panner,Unknown,False,3,130.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+8,2,Daily Tiffin,Unknown,False,3,120.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+9,3,Shreya Tiffin,Unknown,False,3,200.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+21,3,Chole Bhature,Punjabi,True,3,140.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+22,3,Veg Hakka Noodles,Chinese,True,3,110.0,dinner,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+11,4,Special veg,Unknown,True,3,350.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+13,4,Puranpoli,Unknown,True,3,200.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+23,4,Idli Sambar Plate,South Indian,True,1,80.0,breakfast,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+24,4,Chicken Biryani,Hyderabadi,False,4,200.0,lunch,620.0,unknown,unknown,unknown,unknown,False,,True,4.0,False
+10,4,Special moon veg,Gujarati,True,3,120.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+12,4,Soanpapdi,Maharashtrian,True,3,120.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+25,5,Dal Baati Churma,Rajasthani,True,3,170.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+26,5,Methi Thepla with Curd,Gujarati,True,1,70.0,breakfast,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+27,6,Fish Curry Rice,Bengali,False,3,210.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+28,6,Mutton Keema Pav,Mughlai,False,3,190.0,dinner,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+29,7,Sabudana Khichdi,Maharashtrian,True,1,90.0,breakfast,,unknown,unknown,unknown,unknown,True,"Navratri,Ekadashi",False,4.0,False
+30,7,Kadhi Chawal,Gujarati,True,2,120.0,lunch,450.0,unknown,unknown,unknown,unknown,False,,True,4.0,False
+31,8,Chicken Tikka Roll,Punjabi,False,3,130.0,snack,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+32,8,Veg Thali Deluxe,North Indian,True,2,220.0,dinner,,unknown,unknown,unknown,unknown,False,Diwali,False,4.0,False
+33,9,Pesarattu Upma,South Indian,True,2,75.0,breakfast,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+34,9,Prawn Biryani,Hyderabadi,False,4,240.0,dinner,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+35,10,Pav Bhaji,Maharashtrian,True,3,100.0,snack,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+36,10,Paneer Tikka Platter,Punjabi,True,3,230.0,dinner,540.0,unknown,unknown,unknown,unknown,False,,True,4.0,False
+37,11,Bisi Bele Bath,Udupi,True,2,110.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+38,11,Gulab Jamun Box,North Indian,True,1,60.0,snack,,unknown,unknown,unknown,unknown,False,Diwali,False,4.0,False
+39,12,Appam with Stew,Kerala,False,2,130.0,breakfast,,unknown,unknown,unknown,unknown,False,Onam,False,4.0,False
+40,12,Malabar Fish Fry,Kerala,False,4,180.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+41,13,Pongal with Vada,Tamil,True,1,95.0,breakfast,,unknown,unknown,unknown,unknown,False,Pongal,False,4.0,False
+42,13,Lemon Rice Thali,Tamil,True,2,140.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+43,14,Chole Kulche,Punjabi,True,3,100.0,breakfast,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+44,14,Butter Chicken Bowl,Mughlai,False,2,210.0,dinner,700.0,unknown,unknown,unknown,unknown,False,,True,4.0,False
+45,15,Veg Pulao Raita,North Indian,True,1,110.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+46,15,Mushroom Masala Rice,Continental,True,3,160.0,dinner,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+47,16,Goan Fish Curry,Goan,False,4,190.0,lunch,,unknown,unknown,unknown,unknown,False,,False,4.0,False
+48,16,Sweet Corn Soup,Chinese,True,1,70.0,snack,,unknown,unknown,unknown,unknown,False,,False,4.0,False

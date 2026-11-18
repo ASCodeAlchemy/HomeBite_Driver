@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Live order tracking</title>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
+<style>
+  html, body, #map { margin: 0; height: 100%; font-family: system-ui, sans-serif; }
+  #panel { position: absolute; top: 12px; left: 12px; background: #fff; padding: 10px 14px;
+           border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.2); font-size: 14px; max-width: 260px; }
+  #panel b { font-size: 15px; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="panel"><div id="status">Loading…</div><div id="eta"></div></div>
+<script>
+const orderId = new URLSearchParams(location.search).get('order') || 1;
+const panel = document.getElementById('panel');
+const statusEl = document.getElementById('status');
+const etaEl = document.getElementById('eta');
+const LABEL = { pending: 'Finding a driver…', assigned: 'Driver assigned', accepted: 'Driver heading to restaurant',
+                picked_up: 'Order picked up – on the way to you', delivered: 'Delivered ✔', cancelled: 'Order cancelled' };
+const empty = { type: 'Feature', geometry: { type: 'LineString', coordinates: [] } };
+
+async function start() {
+  const cfg = await (await fetch('/config')).json();
+  if (!cfg.mapbox_public_token) { statusEl.textContent = 'Set MAPBOX_PUBLIC_TOKEN in .env (a pk.* token) and reload.'; return; }
+  mapboxgl.accessToken = cfg.mapbox_public_token;
+
+  const map = new mapboxgl.Map({ container: 'map', style: 'mapbox://styles/mapbox/streets-v12', center: [73.79, 20.0], zoom: 13 });
+  await new Promise(r => map.on('load', r));
+
+  map.addSource('route', { type: 'geojson', data: empty });
+  map.addSource('trail', { type: 'geojson', data: empty });
+  map.addLayer({ id: 'route', type: 'line', source: 'route', paint: { 'line-color': '#2563eb', 'line-width': 5, 'line-dasharray': [2, 1.5] } });
+  map.addLayer({ id: 'trail', type: 'line', source: 'trail', paint: { 'line-color': '#475569', 'line-width': 4 } });
+
+  const mk = c => new mapboxgl.Marker({ color: c });
+  const restaurantMk = mk('#f97316'), customerMk = mk('#16a34a'), driverMk = mk('#dc2626');
+  let fitted = false;
+
+  async function poll() {
+    const res = await fetch(`/orders/${orderId}/tracking`);
+    if (!res.ok) { statusEl.textContent = 'Order not found'; return; }
+    const t = await res.json();
+    restaurantMk.setLngLat([t.restaurant.lon, t.restaurant.lat]).addTo(map);
+    if (t.customer) customerMk.setLngLat([t.customer.lon, t.customer.lat]).addTo(map);
+    if (t.driver) driverMk.setLngLat([t.driver.lon, t.driver.lat]).addTo(map);
+    map.getSource('trail').setData({ type: 'Feature', geometry: { type: 'LineString', coordinates: t.trail } });
+
+    if (!fitted && t.driver) {
+      const b = new mapboxgl.LngLatBounds();
+      [t.restaurant, t.customer, t.driver].filter(Boolean).forEach(p => b.extend([p.lon, p.lat]));
+      map.fitBounds(b, { padding: 80, maxZoom: 16 }); fitted = true;
+    }
+    statusEl.innerHTML = `<b>Order #${t.order_id}</b><br>${LABEL[t.status] || t.status}` + (t.assigned_driver ? `<br>Driver #${t.assigned_driver}` : '');
+    if (t.status === 'delivered' || t.status === 'cancelled') { etaEl.textContent = ''; map.getSource('route').setData(empty); }
+  }
+
+  async function drawRoute() {
+    const res = await fetch(`/orders/${orderId}/route`);
+    const d = await res.json();
+    if (!d.route) { map.getSource('route').setData(empty); etaEl.textContent = ''; return; }
+    map.getSource('route').setData({ type: 'Feature', geometry: d.route.geometry });
+    etaEl.textContent = `ETA ${Math.round(d.route.duration_min)} min · ${d.route.distance_km} km`;
+  }
+
+  const safe = f => () => f().catch(console.error);
+  safe(poll)(); safe(drawRoute)();
+  setInterval(safe(poll), 3000);        // driver position + trail
+  setInterval(safe(drawRoute), 10000);  // planned road path (server caches 10s)
+}
+start();
+</script>
+</body>
+</html>

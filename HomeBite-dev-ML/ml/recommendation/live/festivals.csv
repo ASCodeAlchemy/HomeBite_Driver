@@ -1,0 +1,6 @@
+name,tag,start,end,boost,fasting,note
+Navratri,navratri,2026-10-11,2026-10-20,0.25,true,"verify with your panchang; sources differ by a day"
+Diwali,diwali,2026-11-02,2026-11-12,0.25,false,"window covers Dhanteras 06 Nov to Bhai Dooj 11 Nov; Lakshmi Puja 08 Nov"
+Makar Sankranti,makar_sankranti,2027-01-11,2027-01-15,0.25,false,"main day 14 Jan"
+Holi,holi,2027-03-19,2027-03-23,0.25,false,"main day 22 Mar"
+Diwali,"",2027-10-24,2027-11-02,0.25,false,"main day 29 Oct"

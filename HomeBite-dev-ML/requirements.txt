@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlmodel
+psycopg[binary]
+redis
+requests
+python-dotenv
+numpy
+pandas
+# only needed for running the tests:
+pytest
+httpx
+fakeredis
